@@ -2,10 +2,50 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Visualización Ridgeline COVID</title>
+  <title>Visualizaciones de Datos - COVID y Contaminación</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    h2 {
+      margin-top: 60px;
+      color: #444;
+    }
+    .grafico {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    img {
+      max-width: 90%;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-  <h1>Distribución de Muertes por COVID-19 (Top 10 Estados)</h1>
-  <img src="ridgeline_covid_top10 (1).png" alt="Gráfico Ridgeline COVID" width="900">
+
+  <h1>Visualizaciones con Ridgeline y Radar Charts</h1>
+
+  <div class="grafico">
+    <h2>1. Ridgeline Chart - COVID-19: Muertes por Estado (2020–2023)</h2>
+    <img src="ridgeline_covid_top10.png" alt="Ridgeline COVID-19">
+  </div>
+
+  <div class="grafico">
+    <h2>2. Radar Chart - Contaminación Atmosférica por Ciudad (PM2.5, PM10, NO2)</h2>
+    <img src="Ciudades más contaminadas del mundo.png" alt="Radar Chart Contaminación">
+  </div>
+
+  <div class="grafico">
+    <h2>3. Ridgeline Chart - Presupuesto en Educación por Año</h2>
+    <img src="Importaciones a Colombia 2015-2024.png" alt="Ridgeline Presupuesto Educación">
+  </div>
+
 </body>
 </html>
